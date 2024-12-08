@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <h1 style="text-align: center;"> $ Expense Tracker $</h1>
+    <div id="container">
+    <div id="budget">
+        <h1 >Budget</h1>
+        <input type="number" id="budgetInputBox" placeholder="enter your budget">
+        <button id="budgetBtn">Done</button>
+    </div>
+
+    <div id="expense">
+        <h1>Expense</h1>
+
+        <input type="text" id="productNameInputBox" placeholder="enter title of your expense">
+        <input type="number" id="expenseInputBox" placeholder="enter cost">
+        <button id="expenseBtn" >Done</button>
+    </div>
+   </div>
+
+   
+   <div id="box">
+    <div id="budgetBox"><h1>Budget</h1>
+        <h2 id="BudgetBoxInner">$ 0</h2>
+    </div>
+    <div id="expenseBox"><h1>Expense</h1>
+        <h2 id="expenseBoxInner">$ 0</h2>
+    </div>
+    <div id="balanceBox"><h1>Balance</h1>
+        <h2 id="balanceBoxInner">$ 0</h2>
+    </div>
+</div>
+
+<div id="expenseList">
+    <div><h1>List</h1>
+        <div id="listNumberBox"></div>
+    </div>
+    <div><h1>product name</h1>
+        <div id="productNameBox"></div>
+    </div>
+    <div><h1>price</h1>
+        <div id="productPriceBox" ></div>
+    </div>
+</div>
+    
+  <div style="text-align: center; color: white;"><h3>made with 💖 by zaid</h3></div>
+</body>
+<script src="index.js"></script>
+</html>
